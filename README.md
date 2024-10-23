@@ -1,6 +1,6 @@
 # Hide Reddit Trash
 
-This is a userscript that hides the links on the Hacker News homepage.
+This is a userscript to hide the stories on the Hacker News homepage.
 
 ## Install
 
