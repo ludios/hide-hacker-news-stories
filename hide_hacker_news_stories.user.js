@@ -6,13 +6,14 @@
 // @grant       none
 // @version     1.0.1
 // @match       https://news.ycombinator.com/*
+// @match       https://news.ycombinator.com./*
 // @grant       GM_addStyle
 // @run-at      document-start
 // ==/UserScript==
 
 const loc = window.location.href;
 
-const HOMEPAGE_RE = /^https:\/\/news\.ycombinator\.com\/(news)?($|[?&])/;
+const HOMEPAGE_RE = /^https:\/\/news\.ycombinator\.com\.?\/(news)?($|[?&])/;
 
 if (HOMEPAGE_RE.test(loc)) {
   GM_addStyle(`
