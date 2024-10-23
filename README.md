@@ -1,4 +1,4 @@
-# Hide Reddit Trash
+# Hide Hacker News Stories
 
 This is a userscript to hide the stories on the Hacker News homepage.
 
